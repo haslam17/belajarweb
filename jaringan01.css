@@ -1,0 +1,69 @@
+body{
+    font: 16px/28px arial, sans serif;
+    background-color: rgb(83, 197, 231);
+    color: black;
+   
+}
+
+.container{
+    width: 900px;
+    background-color: floralwhite;
+    margin: auto;
+    height: 1500;
+   
+    
+}
+.head .judul{
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.head .ulnav{
+    display: flex;
+    padding-left: 10px;
+    
+}
+.head .linav{
+    list-style-type: none;
+    font-weight: bold;
+}
+.linav a:hover{
+    background-color: rgb(83, 197, 231);
+    border-radius: 5px;
+    color: white;
+}
+.linav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(121, 135, 212);
+    margin-top: -8;
+}
+.mid .gambar{
+    width: 650px;
+    height: 250px;
+}
+.isi .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: -5px;
+}
+.isi {
+ margin: 10px;
+ width: 600px;
+ 
+}
+
+
+.isi .sumbergambar {
+    position: relative;
+    bottom: 35pc;
+    left: 580;
+}
